@@ -1,7 +1,7 @@
 var mapArray, ctx, currentImgMainX, currentImgMainY;
 var imgMountain, imgMain, imgEnemy;
 $(document).ready(function() {
-    mapArray = [0,1,1,0,0,0,3,1,2];
+    mapArray = [0,0,1,1,0,0,3,3,2];
     ctx = $("#myCanvas")[0].getContext("2d");//2d繪圖
     imgMain = new Image();
     imgMain.src = "RPG/images/spriteSheet.png";
